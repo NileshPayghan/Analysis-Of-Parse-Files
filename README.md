@@ -1,5 +1,7 @@
 # Analysis-Of-Files
-This class is used to make analysis of xml, dita, ditamap etc. files which are parsed like XML files.
+This class is used to make analysis of xml, dita and ditamap etc. files.
+This module is worked on parsing files like xml.
+
 Author: Nilesh Payghan
 contact: nileshpayghan7@gmail.com
 Linkdin: www.linkedin.com/in/nileshpayghan7
@@ -13,9 +15,12 @@ Description: This is simple analysis example for parsing files and identify thei
             - Because it contains different values with that attribute.
             - It shows attribute and their values if the attribute values are not found more than 10 for that particular tag.
             
+            
 Warning: set set_prefixes key value pair of file namespaces whatever you have.
          otherwise it will work properly
         - If don't have namespaces for files then comment that lines and run as it is.
+        - If file is not parsed then it will show an traceback because I don't handle any kind of exception in this module.
+        - so provide correct input and don't forget set set_prefixes for your file namespace.
    
         
 command to run: python AnalysisOfFiles.py directory_name extension(xml,dita,ditamap)
