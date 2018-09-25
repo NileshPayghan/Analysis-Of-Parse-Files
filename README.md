@@ -34,3 +34,4 @@ Conclusion: We can analyse the hundreds and thousands of files within a minute.
             - This is helpful for data conversion expertise for analyse files and get what kind tagging structure within it.
  
  Note: This module is created for educational purpose.
+            © Copyright Author and contributors 2018
